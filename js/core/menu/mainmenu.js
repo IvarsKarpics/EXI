@@ -205,6 +205,9 @@ MainMenu.prototype.getDataExplorerMenu = function() {
 		if (item.text == "Calendar") {
 			location.hash = "/session/nav";
 		}
+		if (item.text == "Last collections") {
+			location.hash = "/session/nav";
+		}
 		if (item.text == "Experiments") {
 			location.hash = "/experiment/nav";
 		}
@@ -214,6 +217,12 @@ MainMenu.prototype.getDataExplorerMenu = function() {
 			{
 				id : 'calendar_item',
 				text : 'Calendar',
+				icon : '../images/icon/sessions.png',
+				handler : onItemCheck
+			},
+			{
+				id : 'last_collections_item',
+				text : 'Last collections',
 				icon : '../images/icon/sessions.png',
 				handler : onItemCheck
 			}

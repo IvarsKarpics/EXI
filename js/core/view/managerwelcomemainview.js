@@ -215,7 +215,7 @@ ManagerWelcomeMainView.prototype.getToolbar = function() {
             {
                 xtype    : 'textfield',
                 name     : 'field1',
-                hidden   : !EXI.credentialManager.getCredentials()[0].isManager(),
+                //hidden   : !EXI.credentialManager.getCredentials()[0].isManager(),
                 width    : 300,
                 emptyText: 'enter search term (proposal or title)',
     			listeners : {

@@ -75,7 +75,7 @@
             <td> <a href='{.dataCollectionURL}'>{.beamLineName}</a></td>
             <td>
                  {?expSessionPk}
-                    <a  target="_blank" href="https://wwws.esrf.fr/misapps/SMISWebClient/protected/aform/manageAForm.do?action=view&currentTab=howtoTab&expSessionVO.pk={.expSessionPk}" class='btn btn-xs'><span class='glyphicon glyphicon-list-alt'></span></a>
+                    <a  target="_blank" href="https://wwws.embl-hamburg.de/misapps/SMISWebClient/protected/aform/manageAForm.do?action=view&currentTab=howtoTab&expSessionVO.pk={.expSessionPk}" class='btn btn-xs'><span class='glyphicon glyphicon-list-alt'></span></a>
                   {/expSessionPk}            
             </td>
             <td> <a href='{.dataCollectionURL}'>

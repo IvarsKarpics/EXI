@@ -106,6 +106,7 @@ module.exports = function(grunt) {
                 },
                 jshint : {
                     options : {
+                        '-W098':true,
                         reporter : require('jshint-stylish'),
                         jshintrc : '.jshintrc'
                     },

@@ -31,7 +31,7 @@ function PrepareMainView(args) {
     this.dewarListSelector.onSelect.attach(function(sender, dewar){  
             $('#step-3').attr("disabled", true);
             _this.loadSampleChangerView.sampleChangerName = "";
-            _this.save("sampleChangerName","");     
+            _this.save("sampleChangerName","");
             if (dewar.shippingStatus == "processing"){
                 _this.updateStatus(dewar.shippingId, "at_ESRF");
             } 

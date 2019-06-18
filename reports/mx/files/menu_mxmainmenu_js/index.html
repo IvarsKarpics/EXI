@@ -258,6 +258,9 @@ MXMainMenu.prototype.getDataExplorerMenu = function() {
 		if (item.text == &quot;Experiments&quot;) {
 			location.hash = &quot;/experiment/nav&quot;;
 		}
+		if (item.text == &quot;Last collections&quot;) {
+			location.hash = &quot;/session/nav&quot;;
+		}
 	}
 	return Ext.create(&#039;Ext.menu.Menu&#039;, {
 		items : [ 
